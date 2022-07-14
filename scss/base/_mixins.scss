@@ -1,0 +1,5 @@
+@mixin fondo($imagen, $ajutarTamano, $ajusteHorizontal){
+    background-image:$imagen;
+	background-size:$ajutarTamano;
+	background-position:$ajusteHorizontal;
+}

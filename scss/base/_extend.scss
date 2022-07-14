@@ -1,0 +1,8 @@
+%redes{
+    position: fixed;
+	top: 40%;
+	right: 20px;
+}
+.redes {
+	@extend %redes;
+}

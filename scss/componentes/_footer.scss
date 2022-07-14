@@ -1,0 +1,27 @@
+.pie {
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.363);
+	p {
+		color: white;
+		font-size: 20px;
+	}
+}
+.pie-articulos {
+	width: 100%;
+	height: 10vh;
+	background: url(imagenes/articulos/fondo-pieDePagina.jpg);
+	background-size: cover;
+}
+.parra-articulos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background: rgb(254,254,254);
+	background: linear-gradient(90deg, rgba(254,254,254,0.6115488431700805) 0%, rgba(255,255,255,1) 50%, rgba(254,254,254,0.6227533249627977) 100%);
+}
