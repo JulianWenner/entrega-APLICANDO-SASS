@@ -202,7 +202,7 @@
 	margin: 10px auto;
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
-	grid-template-rows: repeat(6,1fr);
+	grid-template-rows: 15vh 70vh;
 	border-bottom: 2px solid black;
 }
 .titulo-articulo-ar {
@@ -210,6 +210,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 	h3 {
 		font-size: 25px;
 		color: rgb(5, 5, 5);
@@ -218,12 +219,14 @@
 .parrafo-ar1 {
 	width: 100%;
 	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: flex-start;
 	grid-column: 1/4;
-	padding-top: 30px;
+	text-align: justify;
+	justify-content: center;
+	align-items: center;
+	padding-top: 50px;
+	
 }
+
 .ar-img {
 	grid-column: 3/4;
 	grid-row: 3/7;
@@ -234,11 +237,10 @@
 	justify-content: center;
 }
 .img {
-	margin-top: 60px;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	object-fit: cover;
+	width: 200px;
+	height: 200px;
+	float: right;
+	padding-left: 30px;
 }
 /* recetas */
 .cabecera-re {
