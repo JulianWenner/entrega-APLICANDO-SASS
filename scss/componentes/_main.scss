@@ -197,12 +197,11 @@
 
 .grid-articulo {
 	padding-top: 40px;
-	width: 80%;
-	height: 90vh;
+	width: 75%;
 	margin: 10px auto;
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
-	grid-template-rows: 15vh 70vh;
+	grid-template-rows: 15vh auto;
 	border-bottom: 2px solid black;
 }
 .titulo-articulo-ar {
@@ -365,4 +364,5 @@
 	.card-6-3 {
 		grid-column: 4/7;
 	}
+
 }
